@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+	margin: 3px;
+	padding: 0;
+}
+
+body {
+	font: 12px/1.125 Arial, Helvetica, sans-serif;
+	background: #fff;
+}
+
+input {
+	background: #ffffff;
+	width:auto;
+}
+
+.none {
+	display: none;
+}
+
+.wrap {
+	width:100%;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.head1 {
+	width: 200px;
+	height: 40px;
+	background: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000000;
+	font-size: 30px;
+	text-align: center;
+}
+
+.error-message {
+	color: red;
+}
+
+.label-up {
+	display: inline-block;
+	width: 85px;
+}
+.jp-date{
+	background: #ffffff;
+}
+
+
